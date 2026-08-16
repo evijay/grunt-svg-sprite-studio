@@ -1,0 +1,28 @@
+grunt-svg-sprite-studio/
+├── package.json
+├── Gruntfile.js
+├── README.md
+├── lib/
+│   ├── index.js
+│   ├── config.js
+│   ├── scanner.js
+│   ├── parser.js
+│   ├── transformer.js
+│   ├── metadata.js
+│   ├── optimizer.js
+│   ├── sprite.js
+│   ├── styles.js
+│   ├── writers.js
+│   └── utils.js
+├── tasks/
+│   └── svg_sprite_studio.js
+├── test/
+│   ├── fixtures/
+│   │   ├── home.svg
+│   │   ├── user.svg
+│   │   └── nested/
+│   │       └── settings.svg
+│   └── svg_sprite_studio.test.js
+└── examples/
+    ├── icons.svg
+    └── _icons.scss

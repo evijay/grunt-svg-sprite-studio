@@ -1,0 +1,47 @@
+{
+  "name": "grunt-svg-sprite-studio",
+  "version": "1.0.0",
+  "description": "Production-ready Grunt task to convert SVG icons into SVG symbol sprites with SCSS/LESS/Stylus/CSS stylesheets and XMP metadata.",
+  "main": "tasks/svg_sprite_studio.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "build": "grunt"
+  },
+  "keywords": [
+    "gruntplugin",
+    "svg",
+    "sprite",
+    "svg-sprite",
+    "scss",
+    "less",
+    "stylus",
+    "css",
+    "xmp",
+    "svgo"
+  ],
+  "homepage": "https://github.com/evijay/grunt-svg-sprite-studio",
+  "author": {
+    "name": "ViJaY aHiRe (v_^)",
+    "email": "callat_evijay@yahoo.co.in",
+    "url": "https://x.com/vijay_ahire"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evijay/grunt-svg-sprite-studio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evijay/grunt-svg-sprite-studio/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fast-xml-parser": "^5.10.1",
+    "glob": "^10.3.10",
+    "svgo": "^3.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.6.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
